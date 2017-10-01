@@ -1,0 +1,40 @@
+* {}
+html {
+  font-family: 'ff-meta-web-pro-n4', 'ff-meta-web-pro', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  background: rgba(35,35,35,1.0);
+  color: rgba(220,220,220,1.0);
+}
+
+a:link {text-decoration:none; color:rgba(230,230,230,1.0);}
+a:visited {text-decoration:none; color:rgba(230,230,230,1.0);}
+a:hover {
+  text-decoration: none;
+  font-family: 'ff-meta-web-pro-n7', 'ff-meta-web-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+a:active {text-decoration: none;}
+
+nav {
+  margin-top: 5%;
+  display:block;
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  font-family: 'ff-meta-web-pro-condensed-n5', 'ff-meta-web-pro-condensed', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 150%;
+  letter-spacing: 1px;
+  display: block;
+}
