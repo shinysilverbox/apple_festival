@@ -39,4 +39,23 @@ li {
   display: block;
 }
 
+footer {
+  text-align: center;
+}
+
+/* IDs */
+
+#social ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#social li {
+  display: inline;
+  float: left;
+  margin: 0 1em;
+}
+
+/* classes */
+
 .logo {width:50%;}
