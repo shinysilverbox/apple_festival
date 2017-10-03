@@ -31,11 +31,10 @@ ul {
 }
 
 li {
-  font-family: 'ff-meta-web-pro-n5', 'ff-meta-web-pro', sans-serif;
-  font-weight: 500;
+  font-family: 'ff-meta-web-pro-n4', 'ff-meta-web-pro', sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 150%;
-  letter-spacing: 1px;
   display: block;
 }
 
@@ -59,3 +58,9 @@ footer {
 /* classes */
 
 .logo {width:50%;}
+
+.italic {
+  font-family: 'ff-meta-web-pro-i4', 'ff-meta-web-pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
