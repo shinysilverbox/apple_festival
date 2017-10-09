@@ -26,7 +26,7 @@ ul {list-style-type:none;}
 
 td {width:50%; overflow:hidden;}
 
-footer {text-align: center;}
+footer {text-align: center; margin-top: 4%;}
 
 footer ul {
   list-style-type: none;
@@ -119,6 +119,10 @@ footer li a {
   background: linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
 }
 
+table {text-align: left;}
+
+td {width:auto;}
+
 table img {
   width: 50%;
   overflow: hidden;
@@ -136,8 +140,47 @@ table img {
 .social_icon {width:3em;}
 
 .venue {
-  font-size: 150%;
+  font-size: 200%;
   font-family: 'objektiv-mk1-n7', 'objektiv-mk1', sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.day {
+  font-family: 'objektiv-mk1-n9', 'objektiv-mk1', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 150%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.time {
+  font-family: 'objektiv-mk1-n9', 'objektiv-mk1', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 200%;
+  letter-spacing: -.5px;
+  text-align: right;
+  padding-right: 1.5em;
+  width: auto;
+  white-space: nowrap;
+}
+
+.name {
+  font-family: 'objektiv-mk1-n7', 'objektiv-mk1', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 150%;
+  width: auto;
+}
+
+.description {
+  font-family: 'objektiv-mk1-i3', 'objektiv-mk1', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 125%;
 }
