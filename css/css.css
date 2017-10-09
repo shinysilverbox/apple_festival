@@ -57,6 +57,9 @@ footer li a {
   text-align: center;
 }
 
+#wineries {display: none;}
+#cideries {display: none;}
+
 /* classes */
 
 .logo {
@@ -67,8 +70,8 @@ footer li a {
 }
 
 .italic {
-  font-family: 'objektiv-mk1-i4', 'objektiv-mk1', sans-serif;
-  font-weight: 400;
+  font-family: 'objektiv-mk1-i3', 'objektiv-mk1', sans-serif;
+  font-weight: 300;
   font-style: italic;
 }
 
@@ -78,9 +81,29 @@ footer li a {
   font-style: normal;
   font-size: 200%;
 }
-.business_name {}
-.business_address {}
-.business_description {}
+.business_name {
+  padding-top: 1.5em;
+  font-size: 175%;
+  font-family: 'objektiv-mk1-n7', 'objektiv-mk1', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.business_name a:hover {
+  font-family: 'objektiv-mk1-n9', 'objektiv-mk1', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.business_address {font-size: 125%;}
+
+.business_address a:hover {
+  font-family: 'objektiv-mk1-n7', 'objektiv-mk1', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.business_description {font-size: 125%;}
 
 .strip {
   width:100%;
@@ -89,7 +112,7 @@ footer li a {
   display:block;
 }
 
-.wineries {
+.wine_button {
   background: -webkit-linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
   background: -moz-linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
   background: -o-linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
@@ -103,7 +126,7 @@ table img {
   display: block;
 }
 
-.cideries {
+.cider_button {
   background: -webkit-linear-gradient(rgba(252,184,80,1.0),rgba(253,220,145,1.0));
   background: -moz-linear-gradient(rgba(252,184,80,1.0),rgba(253,220,145,1.0));
   background: -o-linear-gradient(rgba(252,184,80,1.0),rgba(253,220,145,1.0));
@@ -111,3 +134,10 @@ table img {
 }
 
 .social_icon {width:3em;}
+
+.venue {
+  font-size: 150%;
+  font-family: 'objektiv-mk1-n7', 'objektiv-mk1', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
