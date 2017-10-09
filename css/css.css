@@ -178,6 +178,12 @@ table img {
   width: auto;
 }
 
+.name a:hover {
+  font-family: 'objektiv-mk1-n9', 'objektiv-mk1', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 .description {
   font-family: 'objektiv-mk1-i3', 'objektiv-mk1', sans-serif;
   font-weight: 300;
