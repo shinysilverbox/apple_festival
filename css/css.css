@@ -184,9 +184,49 @@ table img {
   font-style: normal;
 }
 
+.garage_name {
+  width: 30%;
+}
+
+.garage_address {font-size:150%;}
+
+.garage_description {font-size: 125%; margin-bottom: 4%;}
+
+.note {font-size: 150%;}
+
 .description {
   font-family: 'objektiv-mk1-i3', 'objektiv-mk1', sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 125%;
 }
+
+.questions {
+  font-size: 150%;
+}
+
+.questions td {padding-bottom: 2%; width:auto;}
+
+.q_num {width: 5% !important;}
+
+.answer_1 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.ansbtn_1 {background: rgba(0,0,0,0.2); visibility:visible;}
+.answer_2 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_3 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_4 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_5 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_6 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_7 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_8 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_9 {text-align: center; width:60% !important; padding-bottom: 2em;  visibility:hidden;}
+.answer_10 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_11 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_12 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_13 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_14 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_15 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_16 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_17 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_18 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_19 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
+.answer_20 {text-align: center; width:60% !important; padding-bottom: 2em; visibility:hidden;}
