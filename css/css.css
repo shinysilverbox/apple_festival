@@ -6,6 +6,8 @@ html {
   font-size: 12px;
   background: rgba(251,210,163,1.0);
   color: rgba(0,0,0,1.0);
+  margin: 0;
+  padding: 0;
 }
 
 a:link {text-decoration:none; color:rgba(0,0,0,1.0);}
@@ -20,9 +22,11 @@ a:active {text-decoration: none;}
 
 nav {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-ul {list-style-type:none;}
+ul {list-style-type:none; margin: 0; padding: 0;}
 
 td {width:50%; overflow:hidden;}
 
@@ -48,13 +52,17 @@ footer li a {
 }
 
 /* IDs */
-
+@media (max-width: 750px) {
+  #datetime {font-size: 125%;}
+}
+@media (min-width: 750px) {
 #datetime {
   font-size: 175%;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
+}
 }
 
 #wineries {display: none;}
@@ -87,15 +95,17 @@ footer li a {
   font-family: 'objektiv-mk1-n7', 'objektiv-mk1', sans-serif;
   font-weight: 700;
   font-style: normal;
+  white-space: nowrap;
 }
 
 .business_name a:hover {
   font-family: 'objektiv-mk1-n9', 'objektiv-mk1', sans-serif;
   font-weight: 900;
   font-style: normal;
+  white-space: nowrap;
 }
 
-.business_address {font-size: 125%;}
+.business_address {font-size: 125%; white-space: nowrap;}
 
 .business_address a:hover {
   font-family: 'objektiv-mk1-n7', 'objektiv-mk1', sans-serif;
@@ -183,10 +193,11 @@ table img {
   font-weight: 900;
   font-style: normal;
 }
+@media (max-width: 750px) {
+.garage_name {width: 80%;} }
 
-.garage_name {
-  width: 30%;
-}
+@media (min-width: 750px) {
+garage_name {width: 40%;} }
 
 .garage_address {font-size:150%;}
 
