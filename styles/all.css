@@ -105,7 +105,17 @@ footer li a {
 #wineries {padding: 2%;}
 #cideries {padding: 2%;}
 
-#music {}
+#music {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+}
+
+#garages {
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
 /* classes */
 
@@ -165,13 +175,6 @@ footer li a {
   display:block;
 }
 
-.wine_button {
-  background: -webkit-linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
-  background: -moz-linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
-  background: -o-linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
-  background: linear-gradient(rgba(82,3,52,1.0),rgba(173,32,84,1.0));
-}
-
 table {text-align: left;}
 
 td {width:auto;}
@@ -183,16 +186,9 @@ table img {
   display: block;
 }
 
-.cider_button {
-  background: -webkit-linear-gradient(rgba(252,184,80,1.0),rgba(253,220,145,1.0));
-  background: -moz-linear-gradient(rgba(252,184,80,1.0),rgba(253,220,145,1.0));
-  background: -o-linear-gradient(rgba(252,184,80,1.0),rgba(253,220,145,1.0));
-  background: linear-gradient(rgba(252,184,80,1.0),rgba(253,220,145,1.0));
-}
-
 .social_icon {width:3em;}
 
-.venue {
+.music_venue {
   font-size: 200%;
   font-family: 'FiraSans-Bold.ttf';
   text-align: center;
@@ -205,32 +201,35 @@ table img {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 1%;
+  letter-spacing: .15em;
 }
 
 .time {
   font-family: 'FiraSans-Black.ttf';
   font-size: 200%;
-  letter-spacing: -.5px;
   text-align: right;
-  padding-right: 1.5em;
-  width: auto;
+  padding-right: 2em;
+  width: 30%;
   white-space: nowrap;
 }
 
 .name {
   font-family: 'FiraSans-Bold.ttf';
   font-size: 150%;
-  width: auto;
+  width: 70%;
 }
 
 .name a:hover {
   font-family: 'FiraSans-Black.ttf';
 }
+
+.garage_name {max-width: 500px;}
+
 @media (max-width: 750px) {
-.garage_name {width: 80%;} }
+.garage_name {width: 60%;} }
 
 @media (min-width: 750px) {
-garage_name {width: 40%;} }
+garage_name {width: 30%;} }
 
 .garage_address {font-size:150%;}
 
