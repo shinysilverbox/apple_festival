@@ -227,15 +227,18 @@ table img {
   font-family: 'FiraSans-Black.ttf';
 }
 
-.garage_name {max-width: 500px;}
+.garage_name img {max-width: 500px;}
 
 @media (max-width: 750px) {
-.garage_name {width: 60%;} }
+.garage_name img {width: 60%;} }
 
 @media (min-width: 750px) {
 garage_name {width: 30%;} }
 
-.garage_address {font-size:150%;}
+.garage_address {
+  font-family: 'FiraSans-Medium.ttf';
+  font-size:150%;
+}
 
 .garage_description {
   font-size: 125%;
