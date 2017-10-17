@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'FiraSans-Medium.ttf';
+  src: url('../fonts/Fira_Sans/FiraSans-Medium.ttf');
+}
+
+@font-face {
   font-family: 'FiraSans-Bold.ttf';
   src: url('../fonts/Fira_Sans/FiraSans-Bold.ttf');
 }
@@ -89,18 +94,6 @@ footer li a {
 @media(min-width: 1000px) {
   #datetime {font-size: 200%;}
 }
-/*@media (max-width: 750px) {
-  #datetime {font-size: 125%;}
-}
-@media (min-width: 750px) {
-#datetime {
-  font-size: 175%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-}
-}*/
 
 #wineries {padding: 2%;}
 #cideries {padding: 2%;}
@@ -115,6 +108,17 @@ footer li a {
 #garages {
   padding-left: 3%;
   padding-right: 3%;
+}
+
+#photos {
+  overflow: auto;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#footer_legal {
+  margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 /* classes */
@@ -274,3 +278,16 @@ garage_name {width: 30%;} }
 
 .header_date {text-align: right; padding-right: 1.5em;}
 .header_time {text-align: left;}
+
+.gallery {
+  height: 420px;
+  padding: 2em;
+  white-space: nowrap;
+}
+
+.legal_list {
+  margin: 2em;
+  list-style-type: disc;
+  font-size: 125%;
+}
+.legal_list li {margin-bottom: 1em;}
